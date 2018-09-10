@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+/*    box-sizing: border-box;*/
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.drums {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 150px;
+    height: 30vh;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    align-self: flex-end;
+    margin-bottom: 35vh;
+}
+
+
+/*  Key squares styles  */
+
+.key {
+    border: 1px solid teal;
+    width: 60px;
+    height: 60px;
+    margin: 5px 10px; 
+    align-self: flex-end;
+}
