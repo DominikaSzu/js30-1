@@ -7,6 +7,8 @@ This is the first of the Wes Bos Javascript30 Challenge.
 This project was completed thanks to:
 - [JavaScript30][1]
 - [unDrawn][2]
+- [Google fonts][3]
 
 [1]: https://javascript30.com/
 [2]: https://undraw.co/
+[3]: https://fonts.google.com/
