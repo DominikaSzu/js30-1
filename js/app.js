@@ -8,10 +8,19 @@ document.addEventListener('DOMContentLoaded', function(e) {
         audio.currentTime = 0;
         audio.play();
         let button = document.querySelector(`div[data-key="${event.keyCode}"]`);
-        console.log(button)
         button.classList.add('playing');
     }
     
+    removeClass = (event) => {
+       if (event.propertyName !== 'transform') return;
+        let buttonClicked = event.target;
+        buttonClicked.classList.remove('playing');
+    }
+    
+    
+    const keys = document.querySelectorAll('.key');
+    keys.forEach(key => 
+        key.addEventListener('transitionend', removeClass));
     
     window.addEventListener('keydown', checkWhichKeyPressed);
     
