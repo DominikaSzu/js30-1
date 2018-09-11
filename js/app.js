@@ -13,25 +13,26 @@ document.addEventListener('DOMContentLoaded', function(e) {
     const keyL = document.getElementById('76');
     
     checkWhichKeyPressed = (event) => {
-        if (event.keyCode == '65') {
-            console.log(keyA);
-        } else if (event.keyCode == '83') {
-            console.log(keyS);
-        } else if (event.keyCode == '68') {
-            console.log(keyD);
-        } else if (event.keyCode == '70') {
-            console.log(keyF);
-        } else if (event.keyCode == '71') {
-            console.log(keyG);
-        } else if (event.keyCode == '72') {
-            console.log(keyH);
-        } else if (event.keyCode == '74') {
-            console.log(keyJ);
-        } else if (event.keyCode == '75') {
-            console.log(keyK);
-        } else if (event.keyCode == '76') {
-            console.log(keyL);
-        }
+//        if (event.keyCode == '65') {
+//            console.log(keyA);
+//        } else if (event.keyCode == '83') {
+//            console.log(keyS);
+//        } else if (event.keyCode == '68') {
+//            console.log(keyD);
+//        } else if (event.keyCode == '70') {
+//            console.log(keyF);
+//        } else if (event.keyCode == '71') {
+//            console.log(keyG);
+//        } else if (event.keyCode == '72') {
+//            console.log(keyH);
+//        } else if (event.keyCode == '74') {
+//            console.log(keyJ);
+//        } else if (event.keyCode == '75') {
+//            console.log(keyK);
+//        } else if (event.keyCode == '76') {
+//            console.log(keyL);
+//        }
+        console.log(event.keyCode)
     }
     
     
